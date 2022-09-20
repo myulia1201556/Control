@@ -5,36 +5,6 @@
 // При решение не рекомендуется пользоваться коллекциями, 
 // лучше обойтись исключительно массивами.
 
-// string[] array = new string[4] { "Hello", "2", "world", ":-)" };
-// string[] array1 = new string[array.Length];
-
-// void CreateNewArray(string[] arr, string[] arr1)
-// {
-//     int count = 0;
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         if (arr[i].Length <= 3)
-//         {
-//             arr1[count] = arr[i];
-//             count++;
-//         }
-//     }
-// }
-
-// void PrintArray(string[] array2)
-// {
-//     Console.Write("[");
-//     for (int i = 0; i < array2.Length; i++)
-//     {
-//         Console.Write($"{array2[i] }");
-//     }
-//     Console.Write("]");
-//     Console.WriteLine();
-// }
-// CreateNewArray(array, array1);
-// PrintArray(array1);
-
-
 Console.WriteLine("Введите размер массива (целое положительное число)");
 int size = Convert.ToInt32(Console.ReadLine());
 
